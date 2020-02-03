@@ -1,0 +1,8 @@
+---
+package_name: 'miniflux'
+package_ensure: 'installed'
+service_name: 'miniflux.service'
+service_ensure: 'running'
+config_path: '/etc/miniflux.conf'
+user: 'miniflux'
+group: 'miniflux'

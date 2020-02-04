@@ -4,6 +4,6 @@ class miniflux::config {
     ensure  => 'present',
     owner   => $miniflux::user,
     group   => $miniflux::group,
-    content => epp('miniflux/miniflux.conf.epp', $miniflux::config),
+    content => epp('miniflux/miniflux.conf.epp', { config => $miniflux::config }),
   }
 }

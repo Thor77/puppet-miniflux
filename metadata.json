@@ -2,9 +2,11 @@
   "name": "thor77-miniflux",
   "version": "0.1.0",
   "author": "thor77",
-  "summary": "",
+  "summary": "Install and manage Miniflux",
   "license": "MIT",
-  "source": "",
+  "source": "https://github.com/thor77/puppet-miniflux",
+  "project_page": "https://github.com/thor77/puppet-miniflux",
+  "issues_url": "https://github.com/Thor77/puppet-miniflux/issues",
   "dependencies": [
 
   ],
